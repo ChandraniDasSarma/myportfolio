@@ -1,0 +1,72 @@
+.loom{
+    width: 100vw; 
+    height: 100vh; 
+    background: #0a192f;
+}
+.loo1{
+    display: flex; 
+padding-left: 2rem;
+padding-right: 2rem; 
+margin-left: auto;
+margin-right: auto; 
+flex-direction: column; 
+justify-content: center; 
+height: 70%; 
+}
+.kotha{
+    color: #DB2777;
+    line-height :5.5rem;
+}
+.nam{
+    font-size: 2.25rem;
+line-height: 5.5rem; 
+font-weight: 700; 
+color: #ccd6f6;
+
+
+}
+.jinis{
+    font-size: 2.25rem;
+line-height: 4.5rem; 
+font-weight: 700; 
+color: #8892b0;
+
+
+}
+.lekha{
+    padding-top: 1rem;
+padding-bottom: 1rem; 
+line-height: 2.5rem;
+color: #d6d9e1;
+}
+.tutu{
+    color: #b3b9cb;
+}
+.kaj{
+    display: flex; 
+padding-top: 0.75rem;
+padding-bottom: 0.75rem; 
+padding-left: 1.5rem;
+padding-right: 1.5rem; 
+margin-top: 0.5rem;
+margin-bottom: 0.5rem; 
+color: #ffffff; 
+align-items: center; 
+border-width: 2px; 
+
+
+
+
+
+
+:hover {
+ background-color: #DB2777; 
+border-color: #DB2777; 
+}
+}
+.kaj2{
+    transition-duration: 300ms; 
+}
+.kaj3{
+    margin-left: 0.75rem;
+}

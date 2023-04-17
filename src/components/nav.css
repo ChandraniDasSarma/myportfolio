@@ -1,0 +1,122 @@
+.upor {
+    display: flex; 
+    position: fixed; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    color: #D1D5DB; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    height: 80px;
+    background: #0a192f;
+    
+}
+.lekha{
+     
+    display: block;
+
+@media (min-width: 768px) { display: none
+   } 
+}
+.bolu{
+
+    @media (min-width: 768px) { display: none; 
+        z-index: 10; 
+    } 
+} 
+.luka{
+    visibility: hidden;
+    display: flex; 
+top: 0; 
+left: 0; 
+flex-direction: column; 
+justify-content: center; 
+width: 100%; 
+height: 100vh; 
+background: #0a192f;
+@media (!nav) { display: none
+}
+}  
+.luka1{
+    padding-top: 1.5rem;
+padding-bottom: 1.5rem; 
+font-size: 2.25rem;
+line-height: 2.5rem; 
+}
+.luka2{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem; 
+    font-size: 2.25rem;
+    line-height: 2.5rem; 
+}
+.luka3{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem; 
+    font-size: 2.25rem;
+    line-height: 2.5rem; 
+}    
+.socials{
+    display: flex; 
+position: fixed; 
+flex-direction: column; 
+top: 35%;
+
+
+
+@media (min-width: 1024px) { 
+   }
+} 
+.soco1{
+    display: flex; 
+background-color: #2563EB; 
+transition-duration: 300ms; 
+justify-content: space-between; 
+align-items: center; 
+width: 160px;
+height: 60px;
+margin-left: -100px;
+}
+.soco2{
+    display: flex; 
+transition-duration: 300ms; 
+justify-content: space-between; 
+align-items: center; 
+height: 60px;
+margin-left: -100px;
+:hover{
+margin-left: -10px;
+background: #333333;
+  }
+
+}
+.soco3{
+    display: flex; 
+background-color: #2563EB; 
+transition-duration: 300ms; 
+justify-content: space-between; 
+align-items: center; 
+width: 160px;
+height: 60px;
+margin-left: -100px;
+}    
+.soco4{
+    display: flex; 
+transition-duration: 300ms; 
+justify-content: space-between; 
+align-items: center; 
+width: 160px;
+height: 60px;
+margin-left: -100px;
+    :hover{
+    margin-left: -10px;
+    background : #565f69;
+}
+
+}
+.cocoo{
+    display: flex; 
+    color: #D1D5DB; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+}
